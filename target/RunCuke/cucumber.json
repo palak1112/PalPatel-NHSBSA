@@ -1,0 +1,916 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "I am on start page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 137194800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287780700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on start  now button",
+            "match": {
+              "location": "MyStepdefs.iClickOnStartNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62633000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select wales as my live in country",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyLiveInCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283446900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on next button",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56764500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select yes radio button for question is your gp practice in scotland or wales",
+            "match": {
+              "location": "MyStepdefs.iSelectYesRadioButtonForQuestionIsYourGpPracticeInScotlandOrWales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267820200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on next button after selecting gp practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterSelectingGpPracticeQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50127800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select wales as my dental practice",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyDentalPractice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268161400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on next button after dental practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterDentalPracticeQuestion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2799330300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "As a User I want to check if I get help with nhs costs for age 18 over",
+        "description": "",
+        "id": "nhs-help-costs-test;as-a-user-i-want-to-check-if-i-get-help-with-nhs-costs-for-age-18-over",
+        "after": [
+          {
+            "result": {
+              "duration": 787883900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84909300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter \"18\" birth day in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterBirthDayInBirthdateField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54425700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter \"01\" as birth month in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsBirthMonthInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47378800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter \"1985\" as my birth year in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1985",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsMyBirthYearInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319213900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click next button on radio button after birth date field",
+            "match": {
+              "location": "MyStepdefs.iClickYesOnRadioButtonAfterBirthDateField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52435400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on yes radio button for do you live with your partner question",
+            "match": {
+              "location": "MyStepdefs.iClickOnYesRadioButtonforDoYouLiveWithYourPartnerQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283250000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on next button after partner question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterPartnerQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40122100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on yes radio button for tax credit and benefits question",
+            "match": {
+              "location": "MyStepdefs.iClickOnYesRadioButtonForTaxCreditAndBenefitsQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280974800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on next button after tax credit question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterTaxCreditQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54842800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on yes radio button for you and your partner get paid universal credit",
+            "match": {
+              "location": "MyStepdefs.iClickOnYesRadioButtonForYouAndYourPartnerGetPaidUniversalCredit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264599500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on next buttton after paid universal credit question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButttonAfterPaidUniversalCreditQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48459500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select yes radio button as a part of the universal credit",
+            "match": {
+              "location": "MyStepdefs.iSelectYesRadioButtonAsAPartOfTheUniversalCredit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299993000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on next button after part of the universal credit question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterPartOfTheUniversalCreditQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55811300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select yes radio button for getting paid £935 or less on last universal credit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "935",
+                  "offset": 44
+                }
+              ],
+              "location": "MyStepdefs.iSelectYesRadioButtonForGettingPaid£OrLessOnLastUniversalCredit(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279273000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click  on next button after getting paid £935",
+            "match": {
+              "arguments": [
+                {
+                  "val": "935",
+                  "offset": 44
+                }
+              ],
+              "location": "MyStepdefs.iClickOnNextButtonAfterGettingPaid£(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30994400,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c... help with NHS costs[?]\u003e but was:\u003c... help with NHS costs[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat uk.nhs.steps.MyStepdefs.iSeeTheResult(MyStepdefs.java:139)\r\n\tat ✽.Then I see the result(src/test/java/resources/features/walestest.feature:38)\r\n",
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "I see the result",
+            "match": {
+              "location": "MyStepdefs.iSeeTheResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I am on start page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 56224500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 381758200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on start  now button",
+            "match": {
+              "location": "MyStepdefs.iClickOnStartNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68073300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select wales as my live in country",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyLiveInCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534712500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on next button",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59377200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select yes radio button for question is your gp practice in scotland or wales",
+            "match": {
+              "location": "MyStepdefs.iSelectYesRadioButtonForQuestionIsYourGpPracticeInScotlandOrWales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284559800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on next button after selecting gp practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterSelectingGpPracticeQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45637800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select wales as my dental practice",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyDentalPractice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301783300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on next button after dental practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterDentalPracticeQuestion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2137442900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "As a User I want to check if I get help with nhs costs for age over 65",
+        "description": "",
+        "id": "nhs-help-costs-test;as-a-user-i-want-to-check-if-i-get-help-with-nhs-costs-for-age-over-65",
+        "after": [
+          {
+            "result": {
+              "duration": 605672700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70979900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter \"18\" birth day in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterBirthDayInBirthdateField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47592900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter \"01\" as birth month in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsBirthMonthInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48338400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter \"1956\" as my birth year in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1956",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsMyBirthYearInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286804400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click next button on radio button after birth date field",
+            "match": {
+              "location": "MyStepdefs.iClickYesOnRadioButtonAfterBirthDateField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55118300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select no radio button for do you live with your partner question",
+            "match": {
+              "location": "MyStepdefs.iSelectNoRadioButtonForDoYouLiveWithYourPartnerQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248703200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on next button after partner question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterPartnerQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49839900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I select no radio button for tax credit and benefits question",
+            "match": {
+              "location": "MyStepdefs.iSelectNoRadioButtonForTaxCreditAndBenefitsQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277751500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on next button after tax credit question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterTaxCreditQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45721400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I select no for injury and illness caused by serving in the armed forces",
+            "match": {
+              "location": "MyStepdefs.iSelectNoForInjuryAndIllnessCausedByServingInTheArmedForces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262592300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on next button after injury and illness question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterInjuryAndIllnessQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47557200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I select no for do you live permanently in care home question",
+            "match": {
+              "location": "MyStepdefs.iSelectNoForDoYouLivePermanentlyInCareHomeQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365786900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on next button after living in care home questions",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterLivingInCareHomeQuestions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54968400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I select no for savings investment or property question",
+            "match": {
+              "location": "MyStepdefs.iSelectNoForSavingsInvestmentOrPropertyQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297818500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on next button after saving investment or property question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterSavingInvestmentOrPropertyQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32166100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I see the result you get help with nhs",
+            "match": {
+              "location": "MyStepdefs.iSeeTheResultYouGetHelpWithNhs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I am on start page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60692200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333125600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on start  now button",
+            "match": {
+              "location": "MyStepdefs.iClickOnStartNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66665000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select wales as my live in country",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyLiveInCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303991100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on next button",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55742200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select yes radio button for question is your gp practice in scotland or wales",
+            "match": {
+              "location": "MyStepdefs.iSelectYesRadioButtonForQuestionIsYourGpPracticeInScotlandOrWales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286237700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on next button after selecting gp practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterSelectingGpPracticeQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42525400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select wales as my dental practice",
+            "match": {
+              "location": "MyStepdefs.iSelectWalesAsMyDentalPractice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284511000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on next button after dental practice question",
+            "match": {
+              "location": "MyStepdefs.iClickOnNextButtonAfterDentalPracticeQuestion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1512558200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "As a User I want to check if I get help with nhs costs for age under 18",
+        "description": "",
+        "id": "nhs-help-costs-test;as-a-user-i-want-to-check-if-i-get-help-with-nhs-costs-for-age-under-18",
+        "after": [
+          {
+            "result": {
+              "duration": 634643400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70488400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I enter \"18\" birth day in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterBirthDayInBirthdateField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57044300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I enter \"01\" as birth month in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsBirthMonthInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48879000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I enter \"2015\" as my birth year in birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2015",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterAsMyBirthYearInBirthdateField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303423700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click next button on radio button after birth date field",
+            "match": {
+              "location": "MyStepdefs.iClickYesOnRadioButtonAfterBirthDateField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45175900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I see the result you get help with nhs for under age",
+            "match": {
+              "location": "MyStepdefs.iSeeTheResultYouGetHelpWithNhsForUnderAge()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nhs help costs test",
+    "description": "\r\nAs a user I want to check if I  get help from Nhs or not",
+    "id": "nhs-help-costs-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/features/walestest.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
